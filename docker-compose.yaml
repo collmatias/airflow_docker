@@ -279,7 +279,7 @@ services:
 
   db:
     build:
-        context: ../warehouse-template
+        context: ./warehouse-template
         dockerfile: Dockerfile
     image: warehouse:latest
     healthcheck:
